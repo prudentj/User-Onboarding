@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         Formik form for new-user
       </header>
-      <section>
-        {UserForm}
+      <section class= 'Form'>
+        {UserForm()}
       </section>
     </div>
   );
